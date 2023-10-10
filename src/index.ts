@@ -1,7 +1,7 @@
-import fastify from 'fastify';
-import { Kita } from '@kitajs/runtime';
-import fastifySwagger = require('@fastify/swagger');
-import { fastifySwaggerUi } from '@fastify/swagger-ui';
+import fastify from "fastify";
+import { Kita } from "@kitajs/runtime";
+import fastifySwagger = require("@fastify/swagger");
+import { fastifySwaggerUi } from "@fastify/swagger-ui";
 
 const app = fastify();
 
@@ -12,4 +12,6 @@ app.register(fastifySwaggerUi);
 app.register(Kita);
 
 // Starts your server and prints out the port
-app.listen({ port: 1227 }).then(() => console.log('http://localhost:1227/documentation'));
+app
+  .listen({ port: 1227 })
+  .then(() => console.log("http://localhost:1227/documentation"));
