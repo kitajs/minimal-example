@@ -6,7 +6,7 @@
 
 <br />
 
-# 📪 KitaJs MInimal Example
+<h1 align=center>KitaJs Minimal Example</h1>
 
 <br />
 
