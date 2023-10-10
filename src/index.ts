@@ -5,6 +5,7 @@ import { fastifySwaggerUi } from "@fastify/swagger-ui";
 
 const app = fastify();
 
+// Simply register fastify's swagger support
 app.register(fastifySwagger);
 app.register(fastifySwaggerUi);
 
