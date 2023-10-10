@@ -67,3 +67,9 @@ Firstly, let's review everything you need to know to get started with KitaJs.
 6. Done! 🎉
 
 <br />
+
+After starting your server, you can access [`http://localhost:1227/documentation`](http://localhost:1227/documentation).
+
+![swagger webpage](https://github.com/kitajs/minimal-example/assets/47537704/534a7d42-a901-40e0-a0c5-a78bf197b9f9)
+
+<br />
