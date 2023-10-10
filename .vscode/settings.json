@@ -1,3 +1,5 @@
 {
+  // This vscode setting tells your editor to use the typescript version installed in your node_modules folder
+  // Which is the only way to load any plugins inside tsconfig.json
   "typescript.tsdk": "node_modules/typescript/lib"
 }

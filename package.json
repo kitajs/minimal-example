@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "kita build && tsc",
-    "start": "node dist"
+    "start": "node dist",
+    "test": "kita build --dry-run && tsc --noEmit"
   },
   "devDependencies": {
     "@kitajs/cli": "^1.1.2",
@@ -12,6 +13,8 @@
     "typescript": "5.1.6"
   },
   "dependencies": {
+    "@fastify/swagger": "^8.11.0",
+    "@fastify/swagger-ui": "^1.10.0",
     "@kitajs/runtime": "^1.1.2",
     "fastify": "^4.23.2"
   }

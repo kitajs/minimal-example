@@ -1,8 +1,15 @@
-import { Kita } from '@kitajs/runtime';
 import fastify from 'fastify';
+import { Kita } from '@kitajs/runtime';
+import fastifySwagger = require('@fastify/swagger');
+import { fastifySwaggerUi } from '@fastify/swagger-ui';
 
 const app = fastify();
 
+app.register(fastifySwagger);
+app.register(fastifySwaggerUi);
+
+// This registers the generated kita plugin
 app.register(Kita);
 
-app.listen({ port: 3000 }).then(console.log);
+// Starts your server and prints out the port
+app.listen({ port: 1227 }).then(() => console.log('http://localhost:1227/documentation'));
