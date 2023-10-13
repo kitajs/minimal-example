@@ -1,7 +1,7 @@
 import fastify from "fastify";
 import { Kita } from "@kitajs/runtime";
-import fastifySwagger = require("@fastify/swagger");
-import { fastifySwaggerUi } from "@fastify/swagger-ui";
+import fastifySwagger from "@fastify/swagger";
+import fastifySwaggerUi from "@fastify/swagger-ui";
 
 const app = fastify();
 
