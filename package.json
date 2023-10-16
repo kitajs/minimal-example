@@ -8,14 +8,14 @@
     "test": "kita build --dry-run && tsc --noEmit"
   },
   "devDependencies": {
-    "@kitajs/cli": "^1.1.2",
-    "@kitajs/ts-plugin": "^1.1.2",
+    "@kitajs/cli": "^1.1.7",
+    "@kitajs/ts-plugin": "^1.1.5",
     "typescript": "5.1.6"
   },
   "dependencies": {
     "@fastify/swagger": "^8.11.0",
-    "@fastify/swagger-ui": "^1.10.0",
-    "@kitajs/runtime": "^1.1.2",
-    "fastify": "^4.23.2"
+    "@fastify/swagger-ui": "^1.10.1",
+    "@kitajs/runtime": "^1.1.4",
+    "fastify": "^4.24.1"
   }
 }
