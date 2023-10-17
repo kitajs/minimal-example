@@ -1,6 +1,7 @@
 import { Html } from '@kitajs/html';
 import { Suspense } from '@kitajs/html/suspense';
 import { SuspenseId } from '@kitajs/runtime';
+import { setTimeout } from 'timers/promises';
 
 export function get(rid: SuspenseId) {
   return (
@@ -19,9 +20,8 @@ export function get(rid: SuspenseId) {
   );
 }
 
+// Simple async component which takes a second to render
 export async function Component() {
-  // waits for 1 second
-  await new Promise((res) => setTimeout(res, 2000));
-
+  await setTimeout(1000);
   return <div style={{ color: 'red' }}>Loaded!</div>;
 }
