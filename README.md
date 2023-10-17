@@ -21,6 +21,14 @@
 
 ## Setup
 
+<hr />
+
+#### Try it out in under a minute at [codespaces.new/kitajs/minimal-example](https://codespaces.new/kitajs/minimal-example).
+
+<hr />
+
+You can also clone this repository locally:
+
 ```sh
 # clone the repo
 git clone https://github.com/kitajs/minimal-example.git app
