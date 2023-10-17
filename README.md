@@ -1,3 +1,12 @@
+<div align=right>
+  <a href='https://codespaces.new/kitajs/minimal-example?quickstart=1'>
+    <img src='https://github.com/codespaces/badge.svg' alt='Open in GitHub Codespaces' style='max-width: 100%;'>
+  </a>
+</div>
+
+<br />
+<br />
+
 <p align="center">
   <a href="https://kita.js.org" target="_blank" rel="noopener noreferrer">
     <img src="https://kita.js.org/logo.png" width="180" alt="Kita JS logo" />
