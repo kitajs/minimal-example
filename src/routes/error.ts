@@ -1,4 +1,4 @@
-import { HttpErrors } from "@kitajs/runtime";
+import { HttpErrors } from "@fastify/sensible";
 
 /**
  * @tag Error
