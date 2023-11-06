@@ -1,6 +1,7 @@
 import { File, SavedFile } from '@kitajs/runtime';
 
 /**
+ * @tag File
  * @operationId returnInMemoryFile
  */
 export async function post(file: File) {
@@ -8,6 +9,7 @@ export async function post(file: File) {
 }
 
 /**
+ * @tag File
  * @operationId saveFileIntoDisk
  */
 export async function put(file: SavedFile) {

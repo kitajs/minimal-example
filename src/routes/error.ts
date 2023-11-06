@@ -2,7 +2,7 @@ import { HttpErrors } from "@fastify/sensible";
 
 /**
  * @tag Error
- * @operationId getError
+ * @operationId maybeError
  * @summary Randomly fails with a 400 error
  */
 export async function get(errors: HttpErrors) {

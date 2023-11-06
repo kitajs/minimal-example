@@ -5,7 +5,7 @@
   "scripts": {
     "build": "kita build && tsc",
     "start": "node dist",
-    "dev": "concurrently 'kita watch' 'tsc -w --preserveWatchOutput' 'nodemon dist/index.js'",
+    "dev": "concurrently --names 'Kit,Tsc,Srv' -c \"grey,grey,bgBlue\" 'kita watch' 'tsc -w --preserveWatchOutput' 'nodemon -e ts,tsx -w src dist/index.js'",
     "test": "kita build --dry-run && tsc --noEmit"
   },
   "devDependencies": {
