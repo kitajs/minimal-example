@@ -78,9 +78,11 @@ Firstly, let's review everything you need to know to get started with KitaJS.
 
 4. You can run the `test` script to check if your code compiles correctly. `--dry-run` and `--noEmit` prevent KitaJS and TypeScript from emitting files, which is useful for testing.
 
-5. Start your server by running `node dist/index.js` or `npm start`.
+5. You can run `npm run dev` to instantly reflect your changes into your server. This is useful for development.
 
-6. Done! 🎉
+6. Start your server by running `node dist/index.js` or `npm start`.
+
+7. Done! 🎉
 
 <br />
 

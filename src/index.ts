@@ -1,3 +1,6 @@
+// This tells kita where to find the root of your project
+globalThis.KITA_PROJECT_ROOT = __dirname;
+
 import fastify from 'fastify';
 import { Kita } from '@kitajs/runtime';
 import { ajvFilePlugin } from '@fastify/multipart';
