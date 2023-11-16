@@ -5,12 +5,13 @@
   "scripts": {
     "build": "kita build && tsc",
     "start": "node dist",
-    "dev": "concurrently --names 'Kit,Tsc,Srv' -c \"grey,grey,bgBlue\" 'kita watch' 'tsc -w --preserveWatchOutput' 'nodemon -e ts,tsx -w src dist/index.js'",
+    "dev": "concurrently -n \"Kit,Tsc,Srv\" -c \"grey,grey,bgBlue\" \"kita watch\" \"tsc -w --preserveWatchOutput\" \"nodemon -q -e js,jsx -w dist dist/index.js\"",
     "test": "kita build --dry-run && tsc --noEmit"
   },
   "devDependencies": {
-    "@kitajs/cli": "^1.1.20",
-    "@kitajs/ts-plugin": "^1.1.15",
+    "@kitajs/cli": "^1.1.23",
+    "@kitajs/ts-plugin": "^1.1.16",
+    "@types/node": "^20.9.0",
     "concurrently": "^8.2.2",
     "nodemon": "^3.0.1",
     "typescript": "^5.2.2"
@@ -20,8 +21,8 @@
     "@fastify/sensible": "^5.5.0",
     "@fastify/swagger": "^8.12.0",
     "@fastify/swagger-ui": "^1.10.1",
-    "@kitajs/html": "^3.0.7",
-    "@kitajs/runtime": "^1.1.11",
+    "@kitajs/html": "^3.0.8",
+    "@kitajs/runtime": "^1.1.12",
     "fastify": "^4.24.3",
     "pino-pretty": "^10.2.3"
   }
