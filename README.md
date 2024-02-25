@@ -23,7 +23,9 @@
 
 <hr />
 
-#### Try it out in under a minute at [codespaces.new/kitajs/minimal-example](https://codespaces.new/kitajs/minimal-example).
+#### 🆕 Try it out in under a minute at [codespaces.new/kitajs/minimal-example](https://codespaces.new/kitajs/minimal-example).
+
+#### 🔴 Test out a live deployment at [kitajs-minimal-example.up.railway.app](https://kitajs-minimal-example.up.railway.app/reference).
 
 <hr />
 
