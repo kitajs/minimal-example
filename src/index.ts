@@ -18,5 +18,5 @@ app.register(Kita);
 
 // Starts your server and prints out the port
 app
-  .listen({ port: 1227, host: '0.0.0.0' })
+  .listen({ port: +process.env.PORT || 1227, host: process.env.HOST || '0.0.0.0' })
   .then(() => console.log('http://localhost:1227/documentation'));
