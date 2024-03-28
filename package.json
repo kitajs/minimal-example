@@ -9,19 +9,19 @@
     "test": "kita build --dry-run && tsc --noEmit"
   },
   "devDependencies": {
-    "@kitajs/cli": "^1.1.29",
-    "@kitajs/ts-plugin": "^1.1.21",
-    "@types/node": "^20.11.25",
+    "@kitajs/cli": "^1.1.30",
+    "@kitajs/ts-plugin": "^1.1.22",
+    "@types/node": "^20.11.30",
     "concurrently": "^8.2.2",
     "nodemon": "^3.1.0",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.3"
   },
   "dependencies": {
-    "@fastify/multipart": "^8.1.0",
+    "@fastify/multipart": "^8.2.0",
     "@fastify/sensible": "^5.5.0",
     "@kitajs/html": "^3.1.2",
-    "@kitajs/runtime": "^1.1.16",
+    "@kitajs/runtime": "^1.1.17",
     "fastify": "^4.26.2",
-    "pino-pretty": "^10.3.1"
+    "pino-pretty": "^11.0.0"
   }
 }
