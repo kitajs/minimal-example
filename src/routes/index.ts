@@ -1,14 +1,8 @@
-import { Query } from "@kitajs/runtime";
+import type { FastifyReply, FastifyRequest } from 'fastify';
 
-/**
- * @tag Hello
- * @operationId getHello
- * @summary Get a hello message with date
- */
-export function get(name: Query = "World") {
+export function get(request: FastifyRequest, reply: FastifyReply) {
   return {
-    name,
-    message: `Hello ${name}!`,
-    timestamp: new Date(),
+    method: `Request method is ${request.method}`,
+    status: `Reply status is ${reply.statusCode}`
   };
 }
