@@ -14,13 +14,9 @@ const app = fastify({
 });
 
 // Registers the generated kita plugin
-app.register(Kita );
+app.register(Kita);
 
 // Starts your server and prints out the port
 app
   .listen({ port: +process.env.PORT || 1227, host: process.env.HOST || '0.0.0.0' })
-  .then(() => {
-    console.log(JSON.stringify(app.swagger()));
-
-    console.log('http://localhost:1227/reference');
-  });
+  .then(() => console.log('http://localhost:1227/reference'));
